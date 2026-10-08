@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ArrowDown, ArrowUpRight, Braces, Code2, Database, Download, Layers3, Mail, Menu, MessageCircle, Server, X } from 'lucide-react'
+import { ArrowDown, ArrowUpRight, Braces, Code2, Database, Download, Layers3, Linkedin, Mail, Menu, MessageCircle, Server, X } from 'lucide-react'
 
 const skills = [
   { icon: Code2, title: 'Frontend', text: 'Interfaces modernas, componentes reutilizáveis e integração com APIs.', items: ['React', 'Next.js', 'TypeScript', 'JavaScript'] },
@@ -66,7 +66,7 @@ export default function App() {
           <p className="case-context">A plataforma mantém as regras de negócio em uma biblioteca Python, os adaptadores em FastAPI e um backoffice Django para análise de dados e correções operacionais.</p>
         </article>
       </section>
-      <section className="contact container" id="contato"><p className="eyebrow">05 / PRÓXIMO PASSO</p><h2>Vamos construir<br /><span className="accent">algo juntos?</span></h2><p>Para conversar sobre oportunidades e conhecer melhor meu trabalho, entre em contato.</p><a className="email-link" href="mailto:tiagoaugustofront@gmail.com"><Mail size={22} /><span>tiagoaugustofront@gmail.com</span><ArrowUpRight size={24} /></a><div className="whatsapp-contact"><a className="button secondary" href="https://wa.me/5581989515005" target="_blank" rel="noopener noreferrer"><MessageCircle size={20} /> Conversar pelo WhatsApp <ArrowUpRight size={17} /></a><span>(81) 98951-5005</span></div></section>
+      <section className="contact container" id="contato"><p className="eyebrow">05 / PRÓXIMO PASSO</p><h2>Vamos construir<br /><span className="accent">algo juntos?</span></h2><p>Para conversar sobre oportunidades e conhecer melhor meu trabalho, entre em contato.</p><a className="email-link" href="mailto:tiagoaugustofront@gmail.com"><Mail size={22} /><span>tiagoaugustofront@gmail.com</span><ArrowUpRight size={24} /></a><div className="whatsapp-contact"><a className="button secondary" href="https://wa.me/5581989515005" target="_blank" rel="noopener noreferrer"><MessageCircle size={20} /> Conversar pelo WhatsApp <ArrowUpRight size={17} /></a><span>(81) 98951-5005</span></div><div className="linkedin-contact"><a className="button secondary" href="https://www.linkedin.com/in/tiago-augusto-santos-silva/" target="_blank" rel="noopener noreferrer"><Linkedin size={20} /> Meu LinkedIn <ArrowUpRight size={17} /></a></div></section>
     </main><footer className="footer container"><a className="brand" href="#inicio">TASS<span>.</span></a><p>© {new Date().getFullYear()} Tiago Augusto</p><span>Feito com React & TypeScript</span></footer>
   </>
 }
